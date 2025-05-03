@@ -12,8 +12,6 @@ public class Mirror {
             mirror += string.charAt(begin);  // Agregar el caracter al resultado
             begin++;
             end--;
-
-
         }
         if (begin == end) {
             mirror += string.charAt(begin);
